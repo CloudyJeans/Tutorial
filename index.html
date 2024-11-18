@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS & JS TUTORIAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Basic TUTORIAL for HTML, CSS & JavaScript</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="onez"><img src="piccss/html-5.png" alt="" class="logo"></a></li>
+                    <li><a href="css.html" class="twoz"><img src="piccss/css.png" alt="" class="logo"></a></li>
+                    <li><a href="js.html" class="threez"><img src="piccss/js-removebg-preview.png" alt="" class="logo"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="html">
+            <div class="container">
+                <h2 class="headings">HTML</h2>
+                    <p>HTML (Hypertext Markup Language) is the standard language for creating web pages.</p>
+                <h1 class="headings"> HTML Documents</h1>              
+                    <p>All HTML documents must starts with <code>&lt;!DOCTYPE html&gt;</code>.</p>
+                    <p> The <code>&lt;!DOCTYPE&gt;</code> declaration represents the document type, and helps browsers to display wep pages correctly.</p>
+                    <p>The HTML document itself begins with <code>&lt;html&gt;</code> and ends with <code>&lt;/html&gt;</code> </p>
+                    <h3 class="Example">Example: </h3>
+                    <img src="pic/doctype-example.png" alt="example-code-of-doctype-html" class="try-img">
+                <h1 class="headings">HTML Headings</h1>
+                    <p>Heading tags are used to define headings of documents. You can use different sizes for your headings. HTML also has six levels of headings, which use the elements.<br> While displaying any heading, the browser adds one line before and one line after that heading.</p>
+                    <h3 class="Example">Example: </h3>            
+                        <h1><code>&lt;h1&gt;</code>This is a Heading <code>&lt;/h1&gt;</code></h1>
+                        <h2><code>&lt;h2&gt;</code>This is a Heading <code>&lt;/h2&gt;</code></h2>
+                        <h3><code>&lt;h3&gt;</code>This is a Heading<code>&lt;/h3&gt;</code></h3>
+                        <h4><code>&lt;h4&gt;</code>This is a Heading<code>&lt;/h4&gt;</code></h4>
+                        <h5><code>&lt;h5&gt;</code>This is a Heading<code>&lt;/h5&gt;</code></h5>
+                        <h6><code>&lt;h6&gt;</code>This is a Heading<code>&lt;/h6&gt;</code></h6>
+                    
+                <h1 class="headings">HTML Paragraphs</h1>    
+                    <p>All HTML documents must starts with <code>&lt;p&gt;</code> tags.<p>
+                        <h3 class="Example">Example: </h3>
+                            <code>&lt;p&gt;</code> This is paragraph.<code>&lt;/p&gt;</code><br>
+                            <code>&lt;p&gt;</code> This is another paragraph.<code>&lt;/p&gt;</code><br><br>
+                
+                <h2 class="headings">HTML Links</h2>
+                    <p>HTML links are defined with the <code>&lt;a&gt;</code> tags.<p>
+                        <h3 class="Example">Example: </h3>
+                            <code>&lt;a</code> href =" <a href="Google.com">Google.com</a>"<code>&gt</code> This is a link <code>&lt;/a&gt;</code>
+
+                <h2 class="headings">HTML Links - Use an Image as a Link</h2>
+                    <p>To use an image as a link, just put the <code>&lt;img&gt;</code> tag inside the <code>&lt;a&gt;</code> tag:<p>
+                        <h3 class="Example">Example: </h3>
+                        <img src="pic/img-links-example.png" alt="img-links-example" class="try-img">
+                        
+                <h2 class="headings">HTML Images</h2>
+                    <p>HTML images are defined with the <code>&lt;img&gt;</code> tags.<br>
+                        The source file(<code>src</code>), alternative text(<code>alt</code>), <code>width</code>, <code>height</code> are provided as attributes. <br><br>
+                        The <code>&lt;img&gt;</code> tag has two required attributes:
+                        <ul>
+                            <li>src - Specifies the path to the image.</li>
+                            <li>alt - Specifies an alternate text for the image</li>
+                        </ul>
+                    <p>
+                        <h3 class="Example">Example: </h3>
+                        <img src="pic/img-example.png" alt="example-code-of-img-html" class="try-img">
+                    
+                        <h2 class="headings">Common Image Formats</h2>
+                        <p>Here are the most common image file types, which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera):<br>
+                            <br>
+                        <img src="pic/img-formats.png" alt="" class="try-img">
+
+                <h1 class="headings">HTML Text Formatting</h1>    
+                    <p>HTML contains several elements for defining text with a special meaning.<p>
+                        <h2>HTML Formatting Elements</h2>
+                        <p>Formatting elements were designed to display special types of text:</p>
+                        <h3 class="Example">Example: </h3>
+                           <ul>
+                                <li><code>&lt;b&gt;</code> - Bold text</li><br>
+                                <li><code>&lt;strong&gt;</code> - Important text</li><br>
+                                <li><code>&lt;i&gt;</code>- Italic text</li><br>
+                                <li><code>&lt;em&gt;</code> - Emphasized text</li><br>
+                                <li><code>&lt;mark&gt;</code> - Marked text</li><br>
+                                <li><code>&lt;small&gt;</code> - Smaller text</li><br>
+                                <li><code>&lt;del&gt;</code> - Deleted text</li><br>
+                                <li><code>&lt;ins&gt;</code> - Inserted text</li><br>
+                                <li><code>&lt;sub&gt;</code> - Subscript text</li><br>
+                                <li><code>&lt;sup&gt;</code> - Superscript text</li><br>
+                           </ul>
+
+                <h1 class="headings">HTML Tables</h1>    
+                    <p>HTML tables allow web developers to arrange data into rows and columns.<br> A table in HTML consists of table cells inside rows and columns.<p>
+                        <h3 class="Example">Example: </h3>
+                        <code>&lt;table&gt;</code><br>
+                            <code>&lt;tr&gt;</code><br>
+                                <code>&lt;td&gt;</code>Company<code>&lt;/td&gt;</code><br>
+                                <code>&lt;td&gt;</code>Contact<code>&lt;/td&gt;</code><br>
+                                <code>&lt;td&gt;</code>Country<code>&lt;/td&gt;</code><br>
+                            <code>&lt;/tr&gt;</code><br>
+                            <code>&lt;tr&gt;</code><br>
+                                <code>&lt;td&gt;</code>Alfreds Futterkiste<code>&lt;/td&gt;</code><br>
+                                <code>&lt;td&gt;</code>Maria Anders<code>&lt;/td&gt;</code><br>
+                                <code>&lt;td&gt;</code>Germany<code>&lt;/td&gt;</code><br>
+                            <code>&lt;/tr&gt;</code><br>
+                                <code>&lt;tr&gt;</code><br>
+                                <code>&lt;td&gt;</code>Centro comercial Moctezuma<code>&lt;/td&gt;</code><br>
+                                <code>&lt;td&gt;</code>Francisco Chang<code>&lt;/td&gt;</code><br>
+                                <code>&lt;td&gt;</code>Mexico<code>&lt;/td&gt;</code><br>
+                            <code>&lt;/tr&gt;</code><br>
+                        <code>&lt;/table&gt;</code><br>
+                        <h3>Output: </h3>
+                        <table>
+                            <tr>
+                              <th>Company</th>
+                              <th>Contact</th>
+                              <th>Country</th>
+                            </tr>
+                            <tr>
+                              <td>Alfreds Futterkiste</td>
+                              <td>Maria Anders</td>
+                              <td>Germany</td>
+                            </tr>
+                            <tr>
+                              <td>Centro comercial Moctezuma</td>
+                              <td>Francisco Chang</td>
+                              <td>Mexico</td>
+                            </tr>
+                          </table>
+
+                <h1 class="headings">Table Cells</h1>    
+                    <p>Each table cell is defined by a <code>&lt;td&gt;</code> and a <code>&lt;/td&gt;</code> tag. It stands for table data.<p>
+                    
+                <h1 class="headings">Table Rows</h1>    
+                    <p>Each table row starts with a <code>&lt;tr&gt;</code> and ends with a <code>&lt;/tr&gt;</code> tag.<p>
+                    
+                <h1 class="headings">Table Headers</h1>    
+                    <p>Sometimes you want your cells to be table header cells. In those cases use the<code>&lt;th&gt;</code>  tag instead of the <code>&lt;td&gt;</code> tag. <p>
+                    
+
+                <h1 class="headings">HTML Comment Tag</h1>    
+                    <p>You can add comments to your HTML source by using the following syntax:<p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/comment-example.png" alt="" class="try-img">
+
+                <h1 class="headings">HTML Background Images</h1>    
+                    <p>A background image can be specified for almost any HTML element.<p>
+                        <h2>Background Image on an HTML element</h2>
+                        <p>To add a background image on an HTML element, use the HTML <code>style</code> attribute and the CSS <code>background-image</code> property:</p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/bg-example.png" alt="background-example" class="try-img"> 
+
+                <h1 class="headings">HTML Page Title</h1>    
+                    <p>Every web page should have a page title to describe the meaning of the page. <br>The <code>&lt;title&gt;</code> element adds a title to your page:<p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/title-example.png" alt="" class="try-img">
+                        <h3 class="Example">Output: </h3>
+                            <img src="pic/output-title.png" alt="" width="100%" class="try-img">    
+
+                <h1 class="headings">HTML Lists</h1>    
+                    <p>HTML lists allow web developers to group a set of related items in lists.<p>
+
+                <h2>Unordered Lists</h2>  
+                    <p>An unordered list starts with the <code>&lt;ul&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.
+
+                        The list items will be marked with bullets (small black circles) by default:<p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/ul-example.png" alt="" class="try-img">
+                            
+                <h2>Ordered Lists</h2>   
+                    <p>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag. The list items will be marked with numbers by default:<p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/ol-example.png" alt="" class="try-img"><br>
+                            <img src="pic/ol-type.png" alt="" class="try-img"><br>
+
+                <h1 class="headings">HTML Div Element</h1>    
+                    <p>The <code>&lt;div&gt;</code> element is used as a container for other HTML elements.<p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/div-code.png" alt="" class="try-img">
+                        <h3 class="Example">Output: </h3>
+                            <img src="pic/div-ouput.png" alt="" class="try-img" ><br>
+
+                <h1 class="headings">HTML class Attribute</h1>    
+                    <p>The HTML <code>class</code> attribute is used to specify a class for an HTML element. Multiple HTML elements can share the same class.<p>
+                        <h3 class="Example">Example: </h3>
+                        <img src="pic/class.png" alt="" class="try-img">
+                            
+
+                <h1 class="headings">HTML id Attribute</h1>    
+                    <p>The HTML <code>id</code> attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.</p>
+                        <h3 class="Example">Example: </h3>
+                            <img src="pic/id.png" alt="" class="try-img">
+
+                <h1 class="headings">HTML Input Types</h1>    
+                        <p>Here are the different input types you can use in HTML:</p>
+                            <img src="pic/input-type.png" alt="" class="try-img">
+
+
+            </div>   
+        </section>
+    </main>
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="zoomedImage">
+        <div id="caption"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
